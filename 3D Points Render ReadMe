@@ -6,3 +6,6 @@ x,y,z can be any float value. m should be > 0.
 3. Display all the lines between the centroid with other points;
 4. Calculate the cost (sum distance between centroid with other points);
 5. Calculate the deviation of centroid in each dimension.
+
+PS: Using xtk library to display 3D points and lines.
+The library can be found on http://www.goxtk.com/
