@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
 <script type="text/javascript" src="jquery-1.7.1.min.js"></script> 
-<script type="text/javascript" src="http://get.goXTK.com/xtk_edge.js"></script>
+<script type="text/javascript" src="xtk_edge.js"></script>
 <meta charset="UTF-8" />
 <title>Finding the center point from a text file with 3D points</title>
 <link rel="stylesheet" type="text/css" media="all" href="styles.css" />
+
 </head>
 <body>
-
+<div id="white_area">
 <h1>Finding the center point from a text file with 3D points and its deviation on each dimension</h1>
 
 <form id="upload" action="upload.php" method="POST" enctype="multipart/form-data">
@@ -35,6 +36,7 @@
 <div id="messages">
 	<p>（Status Messages）</p>
 </div>
+
 <br>
 <fieldset id="result">
 <legend>Result</legend>
@@ -51,7 +53,7 @@
 
 <br>
 <a href="javascript:history.go(0)">Click to refresh the page</a>
-
+</div>
 
 <script src="filedrag_visualize.js"></script>
 </body>

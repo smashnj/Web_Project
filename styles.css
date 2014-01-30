@@ -1,10 +1,10 @@
 body
 {
 	font-family: "Segoe UI", Tahoma, Helvetica, freesans, sans-serif;
-	font-size: 90%;
+	font-size: 100%;
 	margin: 10px;
 	color: #333;
-	background-color: #fff;
+	background-color:#000;
 }
 
 h1, h2
@@ -22,6 +22,10 @@ legend
 {
 	font-weight: bold;
 	color: #333;
+}
+
+#white_area{
+	background-color:#fff;
 }
 
 #filedrag
