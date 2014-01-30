@@ -164,6 +164,7 @@
 				}
 				
 				// display the result
+				$("#points_number").html("<strong>Valid Points: " + number_of_points + "</strong>");
 				$("#center_point").html("<strong>Centroid: (" + centroid_x + ", " + centroid_y + ", " + centroid_z + ")</strong>");
 				$("#distance").html("<strong>Cost: " + sum_distance + "</strong><br>(Sum of all distances from the centroid to the other points)");
 				
